@@ -3,10 +3,11 @@ body {
   margin: 0;
   background-image: url("images/bg-pattern-top.svg"),
     url("images/bg-pattern-bottom.svg");
-  background-position: -80% 60%, 160% -30%;
+  background-position: -80% 140%, 175% -65%;
   background-repeat: no-repeat;
   background-color: hsl(185, 75%, 39%);
   display: flex;
+  font-family: Kumbh Sans, sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -15,24 +16,34 @@ body {
 .flexbox-container {
   display: flex;
   flex-direction: column;
+  margin: 8rem 0 0 0;
 }
 
 .flexbox-item-a {
-  background-color: red;
+  background: url("images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 400px;
-  height: 200px;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
 }
 
 .flexbox-item-b {
-  background-color: yellow;
+  background-color: white;
   width: 400px;
-  height: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexbox-item-c {
-  background-color: green;
+  background-color: white;
   width: 400px;
-  height: 200px;
+  height: 100px;
+  border-radius: 0 0 15px 15px;
+  padding: 0 0 20px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -43,6 +54,17 @@ body {
 .flexbox-item-c-2,
 .flexbox-item-c-3 {
   background-color: pink;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+.stat {
+  font-family: Kumbh Sans, sans-serif;
+  font-weight: 700;
+}
+
+.stat-name {
+  font-family: Kumbh Sans, sans-serif;
+  font-weight: 400;
 }
