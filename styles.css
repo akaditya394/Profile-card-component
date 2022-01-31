@@ -56,9 +56,9 @@ body {
   align-items: center;
 }
 
-hr{
-    width: 400px;
-    background-color:hsl(229, 23%, 23%);
+hr {
+  width: 400px;
+  background-color: hsl(229, 23%, 23%);
 }
 
 .name-age {
