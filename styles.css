@@ -6,4 +6,43 @@ body {
   background-position: -80% 60%, 160% -30%;
   background-repeat: no-repeat;
   background-color: hsl(185, 75%, 39%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox-item-a {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+}
+
+.flexbox-item-b {
+  background-color: yellow;
+  width: 400px;
+  height: 200px;
+}
+
+.flexbox-item-c {
+  background-color: green;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexbox-item-c-1,
+.flexbox-item-c-2,
+.flexbox-item-c-3 {
+  background-color: pink;
+  height: 50px;
+  width: 50px;
 }
