@@ -8,6 +8,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   display: flex;
   font-family: Kumbh Sans, sans-serif;
+  font-size: 18px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -17,25 +18,59 @@ body {
   display: flex;
   flex-direction: column;
   margin: 8rem 0 0 0;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .flexbox-item-a {
   background: url("images/bg-pattern-card.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 400px;
-  height: 150px;
+  height: 125px;
   border-radius: 15px 15px 0 0;
+}
+
+.image {
+  position: relative;
+  margin: 80px 0 0 0;
+}
+
+.profile-pic {
+  border: 5px solid white;
+  border-radius: 100px;
+  outline: none;
 }
 
 .flexbox-item-b {
   background-color: white;
   width: 400px;
-  height: 150px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+hr{
+    width: 400px;
+    background-color:hsl(229, 23%, 23%);
+}
+
+.name-age {
+  margin-top: 50px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.age {
+  font-weight: 400;
 }
 
 .flexbox-item-c {
@@ -53,7 +88,7 @@ body {
 .flexbox-item-c-1,
 .flexbox-item-c-2,
 .flexbox-item-c-3 {
-  background-color: pink;
+  background-color: white;
   height: 80px;
   width: 80px;
   text-align: center;
